@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="aesthetic.css" />
+		<title>Lista de Tareas</title>
+	</head>
+	<body>
+		<section class="container">
+			<div class="aesthetic-windows-95-modal lista">
+				<!-- Titulo -->
+				<div class="aesthetic-windows-95-modal-title-bar">
+					<div class="aesthetic-windows-95-modal-title-bar-text">
+						<h1>
+							Lista de Tareas
+							<img src="address_book_pad.png" class="" alt="" />
+						</h1>
+					</div>
+				</div>
+				<!-- Contenido -->
+				<div class="aesthetic-windows-95-modal-content contenido">
+					<div>
+                        <!-- Añadir Tarea -->
+						<div class="row">
+							<input class="aesthetic-windows-95-text-input" type="text" placeholder="Agrega una tarea..." id="taskInput" />
+							<div class="aesthetic-windows-95-button">
+								<button id="addTaskBtn">AGREGAR</button>
+							</div>
+						</div>
+                        <!-- Lista de tareas -->
+						<ul id="taskList" class="aesthetic-windows-95-dropdown-menu">
+                        </ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+	<script src="app.js"></script>
+</html>
